@@ -1,0 +1,115 @@
+ 
+/* 1. COMPLET WEB IN CONTAINER */
+.container {
+  display: flex;
+}
+
+ 
+.name {
+  text-align: center;
+  margin: 20px 12px 10px 25px;
+  color: #003049;
+}
+ 
+.sidebar {
+  background:  gray;
+  width: 15vw;
+}
+
+ 
+.main {
+  background: lightblue; 
+  width: 90vw;
+  padding: 23px;
+}
+ 
+.sidebar li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+  text-align: center;
+  padding: 33px 0px;
+  margin: 0px 80px 0px 0px;
+}
+ 
+ 
+
+ 
+.sidebar li a {
+  color: #560bad;
+  text-decoration: none;
+  
+}
+
+ 
+ 
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 6px;
+  margin: 20px 0px 20px 62px;
+}
+ 
+.fa-instagram {
+  color: darkred;
+}
+  
+.fa-github {
+  color: black;
+}
+
+ 
+.infocontainer {
+  background-image: url(IMG20211224183431.jpg);
+  height: 170vh;
+  width: 70vw;
+  margin: 80px auto;
+  display: flex;
+  
+}
+
+ 
+ 
+.devinfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  position: absolute;
+  margin: 80px;
+}
+ 
+.hello {
+  font-size: 65px;
+}
+
+ 
+.intro {
+  font-size: 50px;
+}
+ 
+.about {
+  margin: 10px;
+  font-family: monospace;
+  font-size: 30px;
+}
+ 
+.btn {
+  padding: 9px 14px;
+  border-radius: 20px;
+  background-color:#5fb3e0;
+  color: white;
+  font-weight: bold;
+  font-size: 21px;
+  margin: 10px 3px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: white;
+  color: #5fb3e0;
+}
+  
